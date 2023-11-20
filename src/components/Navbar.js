@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 //Navbar component
 function Navbar() {
   const dispatch = useDispatch();
-  const user = useSelector((state) => state.userReducer);
   const on = localStorage.getItem("token");
   //Deletes the token and user details from the local storage
   const logOut = () => {

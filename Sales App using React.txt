@@ -1,0 +1,27 @@
+Sales App using React:
+
+AddSales.js:
+First I have created a container and within that I have created a form to add product name, Quantity, Amount and Submit button.
+
+Login.js:
+In login component I have created input form for email and password along with submit button.
+
+Registration.js:
+In registration component I have created input tags for first name, last name, email, password along with submit button.
+
+TodaysRevenue.js:
+In todaysrevenue component I have created a simple h1 tag.
+
+Top5Sale.js:
+In top5sale component I have created a table with heading sales is, product name, quantity and sale amount.
+
+And some sample data in table data tag.
+
+Navbar.js:
+In navbar component I have created navbar using bootstrap, in that liked each component to the single page using NavLink tag.
+
+App.js:
+In app component I have imported BrowserRouter, Routes and Route elements to link individual components alltogether.
+
+App.css:
+Finally I have imported google fonts from official google fonts website and added it into my app.

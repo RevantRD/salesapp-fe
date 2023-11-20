@@ -19,7 +19,7 @@ function Login() {
     //Axios to get the api and local storage to store the token
     const requestData = { email, password };
     axios
-      .post(`${API_BASE_URL}/api/user/login`, requestData)
+      .post(`https://salesapp-be.onrender.com/api/user/login`, requestData)
       .then((result) => {
         if (result.status === 200) {
           setLoading(false);
